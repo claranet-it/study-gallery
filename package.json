@@ -1,0 +1,24 @@
+{
+  "name": "study-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claranet-it/study-gallery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claranet-it/study-gallery/issues"
+  },
+  "homepage": "https://github.com/claranet-it/study-gallery#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}

@@ -4,7 +4,7 @@
   "description": "",
   "source": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "ava",
     "start": "parcel",
     "build": "parcel build"
   },
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/claranet-it/study-gallery#readme",
   "devDependencies": {
+    "ava": "^4.3.3",
     "parcel": "^2.7.0"
   }
 }

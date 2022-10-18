@@ -7,7 +7,10 @@
     "test": "ava",
     "start": "parcel",
     "build": "parcel build",
-    "cypress:open": "cypress open"
+    "precypress:open": "npm run start",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "e2e": "start-server-and-test start http://localhost:1234 cy:run"
   },
   "repository": {
     "type": "git",
@@ -22,6 +25,7 @@
   "devDependencies": {
     "ava": "^4.3.3",
     "cypress": "^10.10.0",
-    "parcel": "^2.7.0"
+    "parcel": "^2.7.0",
+    "start-server-and-test": "^1.14.0"
   }
 }
